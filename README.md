@@ -27,3 +27,6 @@ By default, the pod is only accessible by its internal IP within the cluster. In
 
 ## Scale up
 `kubectl scale deployment hello-kubernetes --replicas=4`
+
+### Orchestrating the Cloud with Kubernetes
+https://codelabs.developers.google.com/codelabs/cloud-orchestrate-with-kubernetes/#0
