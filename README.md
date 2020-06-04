@@ -19,6 +19,11 @@
 ## Create Kubernetes Pod
 `kubectl run hello-kubernetes --image=gcr.io/PROJECT_ID/hello-kubernetes:v1 --port=8080`
 
+## Show Services Information
+`kubectl get services`
+
+Will show all services information including extenral IP address for the exposed services
+
 ## Allow external traffic
 
 By default, the pod is only accessible by its internal IP within the cluster. In order to make the hello-kubernetes container accessible from outside the Kubernetes virtual network, you have to expose the pod as a Kubernetes service.
