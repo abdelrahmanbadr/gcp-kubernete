@@ -23,7 +23,7 @@
 
 By default, the pod is only accessible by its internal IP within the cluster. In order to make the hello-kubernetes container accessible from outside the Kubernetes virtual network, you have to expose the pod as a Kubernetes service.
 
-`kubectl expose deployment hello-kubernetes --type="LoadBalancer"`
+`kubectl expose deployment hello-kubernetes --type="LoadBalancer" --port=8080`
 
 ## Scale up
 `kubectl scale deployment hello-kubernetes --replicas=4`
