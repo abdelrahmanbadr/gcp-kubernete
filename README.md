@@ -22,7 +22,7 @@
 ## Show Services Information
 `kubectl get services`
 
-Will show all services information including extenral IP address for the exposed services
+Will show all services information including extenral IP address for the loan balancer services
 
 ## Allow external traffic
 
